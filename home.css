@@ -1,0 +1,107 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-divbody {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.home-divlogin {
+  gap: 24px;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(21, 21, 21, 1);
+}
+.home-divlogo {
+  width: 352px;
+  height: 96px;
+  align-self: stretch;
+}
+.home-divinputs {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-divinput {
+  gap: 10px;
+  color: rgba(147, 147, 147, 1);
+  display: flex;
+  padding: 12px;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  border-color: rgba(0, 0, 0, 0.15000000596046448);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-divinput1 {
+  gap: 10px;
+  color: rgba(147, 147, 147, 1);
+  display: flex;
+  padding: 12px;
+  font-size: 16px;
+  align-self: stretch;
+  text-align: left;
+  align-items: flex-start;
+  flex-shrink: 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  border-color: rgba(0, 0, 0, 0.15000000596046448);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-buttonlogin {
+  gap: 12px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(21, 21, 21, 1);
+  font-style: Bold;
+}
+.home-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
