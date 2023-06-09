@@ -161,7 +161,7 @@ $stmt = $pdo->query($sql);
       <div class="items-body">
         <div class="items-menu">
           <img alt="divlogosvg3217" src="public/external/divlogosvg3217-1d3.svg" class="items-divlogosvg" />
-          <a href="index.php" class="items-divbuttonlogout button">
+          <a href="index.html" class="items-divbuttonlogout button">
             <span class="items-text"><span>LOGOUT</span></span>
           </a>
           <div class="items-divmenu">

@@ -162,7 +162,7 @@ $stmt = $pdo->query($sql);
       <div class="transactions-body">
         <div class="transactions-menu">
           <img alt="divlogosvg3217" src="public/external/divlogosvg3217-1d3.svg" class="transactions-divlogosvg" />
-          <a href="index.php" class="transactions-divbuttonlogout button">
+          <a href="index.html" class="transactions-divbuttonlogout button">
             <span class="transactions-text"><span>LOGOUT</span></span>
           </a>
           <div class="transactions-divmenu">
